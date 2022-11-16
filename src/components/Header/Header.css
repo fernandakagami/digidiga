@@ -1,0 +1,10 @@
+.App-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 300px 0 80px;
+}
+
+span {
+    color: #A5410F;
+}

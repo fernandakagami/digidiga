@@ -1,0 +1,23 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;    
+}
+
+li {
+    list-style: none;
+    margin: 0 30px;    
+    font-size: 18px;
+    color: #848484;
+    text-shadow: 0 3px 4px #848484;
+}
+
+li:first-child {
+    color: #A5410F;
+    font-weight: bold;
+}
+
+a:link, :visited {
+    text-decoration: none;
+    color: inherit
+}
