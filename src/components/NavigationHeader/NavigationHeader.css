@@ -1,14 +1,14 @@
 ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;    
 }
 
 li {
-    list-style: none;
-    margin: 0 30px;    
+    list-style: none;      
     font-size: 18px;
     color: #848484;
+    margin-left: 40px;
     text-shadow: 0 3px 4px #848484;
 }
 

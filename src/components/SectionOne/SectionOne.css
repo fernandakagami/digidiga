@@ -1,0 +1,23 @@
+.Section-One {
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Person-Container {
+    position: relative;;
+}
+
+.circle {
+    position: absolute;
+    width: 220px;
+
+}
+
+.person {
+    width: 40vw;
+    margin-top: 70px;
+}
+
