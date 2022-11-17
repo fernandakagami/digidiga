@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 800px;
-    margin: 0 auto;
-    text-align: left;
+    width: 1000px;
+    margin: 0 auto;    
 }
