@@ -8,6 +8,10 @@ function App() {
       <Header />
       <SectionOne />
       <SectionTwo />
+      <section>
+        <h4><small>recent</small>project</h4>
+        <img></img>
+      </section>
     </div>
   );
 }
