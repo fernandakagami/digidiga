@@ -19,11 +19,20 @@
     color: #D5963D;
     font-size: 85px;
     font-weight: 700;
-    margin-top: 0;
+    margin: 0 0 50px;
 }
 
 .Client-List {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
+    padding-left: -30px;
+}
+
+.Client {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
 }
