@@ -8,6 +8,8 @@ import granola from '../../images/client/image 9.png'
 import stadt from '../../images/client/image 10.png'
 import bnb from '../../images/client/image 11.png'
 
+const clients = [bni, honda, yamaha, solusi, bank, granola, stadt, bnb]
+
 function SectionFour() {
     return (
         <section className='Section-Four'>
@@ -17,30 +19,11 @@ function SectionFour() {
             </div>
             <div>
                 <ul className='Client-List'>
-                    <li>
-                        <img src={bni} alt="bni"></img>
-                    </li>
-                    <li>
-                        <img src={honda} alt="honda"></img>
-                    </li>
-                    <li>
-                        <img src={yamaha} alt="yamaha"></img>
-                    </li>
-                    <li>
-                        <img src={solusi} alt="solusi"></img>
-                    </li>
-                    <li>
-                        <img src={bank} alt="bank"></img>
-                    </li>
-                    <li>
-                        <img src={granola} alt="granola"></img>
-                    </li>
-                    <li>
-                        <img src={stadt} alt="stadt"></img>
-                    </li>
-                    <li>
-                        <img src={bnb} alt="bnb"></img>
-                    </li>
+                    { clients.map( (client) => (
+                        <li className='Client' key={client}>
+                            <img src={client} alt={client}></img>
+                        </li>                        
+                    ))}                    
                 </ul>
             </div>
         </section>
