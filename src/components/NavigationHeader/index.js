@@ -7,7 +7,7 @@ function NavigationHeader() {
         <nav>
             <ul className='Navegation-Bar'>
                 { textOptions.map( (textOption) => (
-                    <li className='Navegation-Option'><a key={textOption} href='/'>{textOption}</a></li>                    
+                    <li key={textOption} className='Navegation-Option'><a href='/'>{textOption}</a></li>                    
                 ))}
             </ul>
         </nav>
