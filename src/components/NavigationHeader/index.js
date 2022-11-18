@@ -1,12 +1,14 @@
 import './NavigationHeader.css'
 
+const textOptions = ['About us', 'Our project', 'Clients'];
+
 function NavigationHeader() {
     return (
         <nav>
-            <ul>
-                <li><a href='/'>About us</a></li>
-                <li><a href='/'>Our project</a></li>            
-                <li><a href='/'>Clients</a></li>
+            <ul className='Navegation-Bar'>
+                { textOptions.map( (textOption) => (
+                    <li className='Navegation-Option'><a key={textOption} href='/'>{textOption}</a></li>                    
+                ))}
             </ul>
         </nav>
     )

@@ -1,10 +1,10 @@
-ul {
+.Navegation-Bar {
     display: flex;
     justify-content: space-between;
     text-align: center;    
 }
 
-li {
+.Navegation-Option {
     list-style: none;      
     font-size: 18px;
     color: #848484;
@@ -12,7 +12,7 @@ li {
     text-shadow: 0 3px 4px #848484;
 }
 
-li:first-child {
+.Navegation-Option:first-child {
     color: #A5410F;
     font-weight: bold;
 }
