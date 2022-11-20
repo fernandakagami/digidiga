@@ -14,8 +14,8 @@ function SectionFour() {
     return (
         <section className='Section-Four'>
             <div className='Section-Four-Title'>
-                <small className='Title-One-Client'>Our</small>
-                <h5 className='Title-Two-Client'>Client</h5>
+                <h4 className='Title-One-Client'>Our</h4>
+                <h3 className='Title-Two-Client'>Client</h3>
             </div>
             <div>
                 <ul className='Client-List'>
@@ -25,6 +25,9 @@ function SectionFour() {
                         </li>                        
                     ))}                    
                 </ul>
+            </div>
+            <div>
+                <h5></h5>
             </div>
         </section>
     )

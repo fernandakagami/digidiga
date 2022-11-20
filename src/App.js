@@ -1,8 +1,11 @@
 import Header from './components/Header'
 import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
+import RectangleSection from './components/RectangleSection';
 import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
+import SectionFive from './components/SectionFive';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -11,8 +14,11 @@ function App() {
       <Header />
       <SectionOne />
       <SectionTwo />
+      <RectangleSection />
       <SectionThree />
       <SectionFour />
+      <SectionFive />      
+      <Footer />      
     </div>
   );
 }

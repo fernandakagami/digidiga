@@ -3,8 +3,8 @@ import './SectionThreeTitle.css'
 function SectionThreeTitle() {
     return (
         <div className='Section-Three-Title'>
-            <small className='Recent-Text'>recent</small>
-            <h4>project</h4>
+            <h4 className='Recent-Text'>recent</h4>
+            <h3>project</h3>
         </div>
     )    
 }
