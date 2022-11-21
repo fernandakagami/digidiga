@@ -9,6 +9,7 @@ React project of a landing page.
 ## 🚀 Technology
 
 - React
+- Vercel
 
 ## 💻 Project
 
