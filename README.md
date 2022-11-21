@@ -1,7 +1,7 @@
 <h1 align="center"> DigiDiga </h1>
 
 <p align="center">
-React Project of a landing page.
+React project of a landing page.
 </p>
 
 <br>
