@@ -1,15 +1,14 @@
-<h1 align="center"> Organo </h1>
+<h1 align="center"> DigiDiga </h1>
 
 <p align="center">
-React Project of register.
+React Project of a landing page.
 </p>
 
 <br>
 
 ## 🚀 Technology
 
-- React 
-- Vercel
+- React
 
 ## 💻 Project
 
