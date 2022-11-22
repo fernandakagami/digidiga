@@ -1,14 +1,7 @@
 import './SectionFour.css'
-import bni from '../../images/client/image 4.png'
-import honda from '../../images/client/image 5.png'
-import yamaha from '../../images/client/image 6.png'
-import solusi from '../../images/client/image 7.png'
-import bank from '../../images/client/image 8.png'
-import granola from '../../images/client/image 9.png'
-import stadt from '../../images/client/image 10.png'
-import bnb from '../../images/client/image 11.png'
+import ClientList from '../ClientList'
+import SectionFourChooseUs from '../SectionFourChooseUs'
 
-const clients = [bni, honda, yamaha, solusi, bank, granola, stadt, bnb]
 
 function SectionFour() {
     return (
@@ -17,17 +10,11 @@ function SectionFour() {
                 <h4 className='Title-One-Client'>Our</h4>
                 <h3 className='Title-Two-Client'>Client</h3>
             </div>
-            <div>
-                <ul className='Client-List'>
-                    { clients.map( (client) => (
-                        <li className='Client' key={client}>
-                            <img src={client} alt={client}></img>
-                        </li>                        
-                    ))}                    
-                </ul>
-            </div>
-            <div>
-                <h5></h5>
+            <ClientList />
+            <SectionFourChooseUs />           
+            <div className='Section-Four-Choose-Us'>
+                <h5>Why Choose us?</h5>
+                <p><strong>Digidiga</strong> selalu menganggap client sebagai teman yang akan kami bantu untuk menyelesaikan masalahnya, kami akan bantu Anda karena kami mempunyai kelebihan seperti dibawah ini.</p>
             </div>
         </section>
     )
