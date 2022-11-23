@@ -7,14 +7,24 @@
 .RectangleSection {
     width: 1000px;
     background-color: #D5963D;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;    
+    display: flex;
+    justify-content: space-around;       
+    align-items: center;     
     padding: 50px;
     font-size: 22px;
     color: white;
     position: absolute;
     top: -120px;
+}
+
+.RectangleSectionType {
+    width: 250px;
+    border-right: 1px solid white;
+    padding: 0 60px;
+    list-style: none;    
+}
+
+.RectangleSectionType:last-child {
+    border-right: 0px;
 }
 

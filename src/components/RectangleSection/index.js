@@ -3,24 +3,24 @@ import './RectangleSection.css'
 function RectangleSection() {
     return (
         <section className='RectangleSectionContainer'>
-            <div className='RectangleSection'>
-                <div>
+            <ul className='RectangleSection'>
+                <li className='RectangleSectionType'>
                     <small>01</small>
                     <p>Website Development</p>
-                </div>
-                <div>
+                </li>
+                <li className='RectangleSectionType'>
                     <small>02</small>
                     <p>Mobile Apps Development</p>
-                </div>
-                <div>
+                </li>
+                <li className='RectangleSectionType'>
                     <small>03</small>
                     <p>Branding & design</p>
-                </div>
-                <div>
+                </li>
+                <li className='RectangleSectionType'>
                     <small>04</small>
                     <p>IoT Solution</p>
-                </div>
-            </div>            
+                </li>
+            </ul>            
         </section>
     )
 }
