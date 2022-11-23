@@ -1,25 +1,30 @@
 .Section-Choose-Us {
-    background-color: #D5963D;
+    background-color: #D5963D;    
+    height: 200px;
+}
+
+.Section-Choose-Us-Container {
+    width: 1000px;
+    margin: 0 auto;
     position: relative;
-    height: 240px;
 }
 
 .Section-Choose-Us-Image {  
     position: absolute;
     top: -140px;
-    left: 170px;
-    width: 550px;
+    left: 50px;
+    width: 500px;
 }
 
 .Section-Choose-Us-Text {
-    width: 300px;    
-    float: right;
+    position: absolute;
+    width: 300px;        
     background-color: #A5410F;
     padding: 60px 40px;
     color: white;
     position: absolute;
-    top: -133px;
-    left: 800px;
+    top: -170px;
+    right: 0;
 }
 
 .Section-Choose-Us h5 {
