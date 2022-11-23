@@ -1,5 +1,11 @@
+.RectangleSectionContainer {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;    
+}
+
 .RectangleSection {
-    width: 1000px;    
+    width: 1000px;
     background-color: #D5963D;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -9,7 +15,6 @@
     font-size: 22px;
     color: white;
     position: absolute;
-    top: 1030px;
-    right: 20vw;    
+    top: -120px;
 }
 
