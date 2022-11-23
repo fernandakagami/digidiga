@@ -46,7 +46,7 @@ function SectionFive() {
                                 <img src={icon4} alt="icon4" className="Advantage-Icon"></img>
                                 <div>
                                     <h5 className="Advantage-Title">Layanan Pelanggan Profesional</h5>
-                                    <p className="Advantage-Content">Tim kami selalu merespon dengan cepat dan tulus kepada pelanggan dengan jawaban yang benar, berdasarkan pengetahuan luas mereka yang dikoordinasikan dengan manajemen, desainer, dan pemrogram. Jika Anda memiliki masalah dengan dukungan pelanggan kami, harap segera hubungi kami. Kami bertujuan untuk menjadi mitra yang baik yang menghilangkan stres dan membantu bisnis Anda</p>
+                                    <p className="Advantage-Content">Tim kami selalu merespon dengan cepat dan tulus kepada pelanggan dengan jawaban yang benar, berdasarkan pengetahuan luas mereka yang dikoordinasikan dengan manajemen, desainer, dan pemrogram. Jika Anda memiliki masalah dengan dukungan pelanggan kami, harap segera hubungi kami. Kami bertujuan untuk menjadi mitra yang baik yang menghilangkan stres dan membantu bisnis Anda.</p>
                                 </div>                                
                             </div>
                         </li>

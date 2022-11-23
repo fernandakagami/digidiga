@@ -1,6 +1,6 @@
 .Section-Five {    
     background-color: #131E07;
-    padding: 60px 0;
+    padding: 10px 0 130px;
 }
 
 .Section-Five-Container {
@@ -41,7 +41,7 @@
 }
 
 .Advantage:nth-child(odd) {
-    margin-right: 50px;
+    margin-right: 80px;
 }
 
 .Advantage-Title {
