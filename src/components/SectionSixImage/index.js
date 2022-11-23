@@ -1,4 +1,5 @@
 import frame from '../../images/contact/frame.png'
+import './SectionSixImage.css'
 
 function SectionSixImage() {
     return (
