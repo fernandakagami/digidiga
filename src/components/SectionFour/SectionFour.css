@@ -23,22 +23,3 @@
     font-weight: 700;
     margin: 0 0 50px;
 }
-
-.Section-Four-Choose-Us {
-    width: 300px;    
-    float: right;
-    background-color: #A5410F;
-    padding: 50px;
-    color: white;
-}
-
-.Section-Four-Choose-Us h5 {
-    font-size: 38px;
-    text-align: center;
-    margin: 0;    
-}
-
-.Section-Four-Choose-Us p {
-    font-size: 20px;
-    font-weight: 300;
-}
