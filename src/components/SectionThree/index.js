@@ -1,3 +1,4 @@
+import ListContainer from '../ListContainer'
 import SectionThreeTitle from '../SectionThreeTitle'
 import './SectionThree.css'
 
@@ -6,8 +7,7 @@ function SectionThree() {
         <section className='Section-Three-Background'>
             <div className='Section-Three'>
                 <SectionThreeTitle />
-                <div className='Section-Three-Carousel'>
-                </div>                 
+                <ListContainer />            
             </div>                           
         </section>
     )
