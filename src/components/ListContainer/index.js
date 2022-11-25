@@ -10,15 +10,14 @@ function ListContainer () {
     const [slideNumber, setSlideNumber] = useState(0);
     const listRef = useRef();
 
-    const handleClick = (direction) => {
-        let distance = listRef.current.getBoundingClientRect().x -100;
+    const handleClick = (direction) => {                
         if (direction === "left" && slideNumber > 0) {
             setSlideNumber(slideNumber - 1);
-            listRef.current.style.transform = `translateX(${500 + distance}px)`;
+            listRef.current.style.transform = `translateX(0px)`;
         }
-        if (direction === "right" && slideNumber < 2) {
+        if (direction === "right" && slideNumber < 1) {
             setSlideNumber(slideNumber + 1);
-            listRef.current.style.transform = `translateX(${-500 + distance}px)`;
+            listRef.current.style.transform = `translateX(-600px)`;
         }
     };
 

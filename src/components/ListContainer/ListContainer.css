@@ -40,10 +40,23 @@
     margin-left: 10px;
 }
 
+.ImageTitle {
+    color: #731F07;
+    margin: 0;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.ImageText {
+    color: #731F07;
+    font-weight: 300;
+    font-size: 17px;
+}
+
 .Line {
     background-color: #D5963D;
     width: 90%;
     height: 2px;    
     position: absolute;
-    top: 427px;
+    top: 399px;
 }
