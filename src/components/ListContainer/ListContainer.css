@@ -16,6 +16,10 @@
     margin-right: 50px;
 }
 
+.ItemContainer:last-child {
+    margin-right: 0;
+}
+
 .MainImage {    
     width: 500px;
     object-fit: cover;
