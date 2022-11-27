@@ -8,6 +8,18 @@
     padding-top: 120px;
 }
 
-.Section-Three-Carousel {
-    padding-bottom: 50px;
+.Section-Three-Title-Recent {
+    font-size: 36px;
+    font-weight: 700;
+    color: #A5410F;
+    margin: 60px 0 0 0;    
+    border-top: 1px solid #A5410F;
+    width: 300px;
+}
+
+.Section-Three-Title-Project {
+    font-size: 85px;
+    font-weight: 700;
+    color: #A5410F;
+    margin: 0 0 80px 0; 
 }
