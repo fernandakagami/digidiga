@@ -1,5 +1,7 @@
 .Section-Three-Background {  
     background-color: rgba(165, 65, 15, 0.18);
+    overflow: hidden;
+    min-width: 1000px;
 }
 
 .Section-Three {  
