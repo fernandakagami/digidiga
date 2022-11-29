@@ -1,6 +1,7 @@
 .Section-Five {    
     background-color: #131E07;
     padding: 10px 0 130px;
+    min-width: 1000px;
 }
 
 .Section-Five-Container {
