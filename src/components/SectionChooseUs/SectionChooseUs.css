@@ -1,6 +1,7 @@
 .Section-Choose-Us {
     background-color: #D5963D;    
     height: 200px;
+    min-width: 1000px;
 }
 
 .Section-Choose-Us-Container {
