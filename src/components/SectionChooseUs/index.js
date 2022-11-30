@@ -7,7 +7,7 @@ function SectionChooseUs() {
             <div className='Section-Choose-Us-Container'>
                 <img src={girl} alt='girl' className='Section-Choose-Us-Image'></img>
                 <div className='Section-Choose-Us-Text'>
-                    <h5>Why Choose us?</h5>
+                    <h5>Why choose us?</h5>
                     <p><strong>Digidiga</strong> selalu menganggap client sebagai teman yang akan kami bantu untuk menyelesaikan masalahnya, kami akan bantu Anda karena kami mempunyai kelebihan seperti dibawah ini.</p>
                 </div>    
             </div>            
