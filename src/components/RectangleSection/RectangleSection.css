@@ -9,7 +9,6 @@
     background-color: #D5963D;
     display: flex;
     justify-content: space-around;       
-    align-items: center;     
     padding: 50px;
     font-size: 22px;
     color: white;
@@ -20,7 +19,7 @@
 .RectangleSectionType {
     width: 250px;
     border-right: 1px solid white;
-    padding: 0 60px;
+    padding: 0 40px;
     list-style: none;    
 }
 
