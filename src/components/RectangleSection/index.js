@@ -1,8 +1,9 @@
 import './RectangleSection.css'
+import stripe from '../../images/stripe.png'
 
 function RectangleSection() {
     return (
-        <section className='RectangleSectionContainer'>
+        <section className='RectangleSectionContainer'>            
             <ul className='RectangleSection'>
                 <li className='RectangleSectionType'>
                     <small>01</small>
@@ -20,7 +21,8 @@ function RectangleSection() {
                     <small>04</small>
                     <p>IoT Solution</p>
                 </li>
-            </ul>            
+            </ul>
+            <div className='stripeImage'></div>
         </section>
     )
 }
