@@ -13,7 +13,7 @@
     font-size: 22px;
     color: white;
     position: absolute;
-    top: -120px;
+    top: -120px;   
 }
 
 .RectangleSectionType {
@@ -25,5 +25,13 @@
 
 .RectangleSectionType:last-child {
     border-right: 0px;
+}
+
+.stripeImage {
+    background-image: url('../../images/stripe.png');
+    background-repeat: no-repeat;    
+    background-position: 110% 50%;
+    width: 1000px;
+    height: 300px;    
 }
 
